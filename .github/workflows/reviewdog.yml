@@ -1,10 +1,10 @@
 name: reviewdog
-on:
+on:  
   pull_request:
-    types: [ opened ]
-    # types: [ review_requested ]
+
 jobs:
   eslint:
+    if: github.event.pull_request.draft == false
     name: runner / eslint
     runs-on: ubuntu-latest
     steps:
