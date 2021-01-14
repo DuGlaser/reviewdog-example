@@ -1,7 +1,8 @@
 name: reviewdog
 on:
   pull_request:
-    types: [ review_requested ]
+    types: [ opened ]
+    # types: [ review_requested ]
 jobs:
   eslint:
     name: runner / eslint
