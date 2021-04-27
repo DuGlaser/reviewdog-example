@@ -15,5 +15,3 @@ jobs:
         with:
           reporter: github-pr-review # Change reporter.
           eslint_flags: './**/*.{ts,tsx}' 
-      - name: eslint
-        run: yarn lint
