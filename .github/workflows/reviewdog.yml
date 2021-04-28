@@ -3,8 +3,8 @@ on:
   pull_request:
     types: [ opened, synchronize, reopened, ready_for_review ]
     paths:
-    - "client/**.ts"
-    - ".github/workflows/reviewdog.yml"
+      - "client/**.ts"
+      - ".github/workflows/reviewdog.yml"
 
 jobs:
   eslint:
