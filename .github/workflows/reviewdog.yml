@@ -4,7 +4,7 @@ on:
     types: [ opened, synchronize, reopened, ready_for_review ]
     paths:
       - "client/**/*.{ts,tsx,css}"
-      - ".github/workflows/frontend-reviewdog.yml"
+      - ".github/workflows/reviewdog.yml"
 
 jobs:
   eslint:
