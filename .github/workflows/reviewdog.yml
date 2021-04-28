@@ -4,7 +4,9 @@ on:
   # pull_request:
     # types: [ opened, synchronize, reopened, ready_for_review ]
     paths:
-      - "client/**.{ts,tsx,css}"
+      - "client/**.ts"
+      - "client/**.tsx"
+      - "client/**.css"
       - ".github/workflows/reviewdog.yml"
 
 jobs:
